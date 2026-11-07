@@ -1,0 +1,36 @@
+# =========================================================================
+# Custom Project Rules
+# =========================================================================
+# Ignore your local symbolic link pointing to your other repository
+tweets/
+
+# =========================================================================
+# Linux & System Garbage
+# =========================================================================
+# General Linux files
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Thumbnails and system databases
+.thumbnails/
+.collection/
+
+# macOS / Windows clutter (in case collaborators use other OS)
+.DS_Store
+Thumbs.db
+
+# =========================================================================
+# Code Editors & IDEs
+# =========================================================================
+# Visual Studio Code
+.vscode/
+
+# JetBrains (WebStorm, PyCharm, etc.)
+.idea/
+
+# Vim swap files
+.*.swp
+.*.swo
